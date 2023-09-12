@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url(template1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    touch-action: none;
+  }
+
+/* O restante do seu código permanece inalterado */
+.menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: flex;
+    height: 100%;
+    background-color: rgba(0,0,0, .6);
+    transition: left 0.1s ease-in-out;
+    z-index: 9999; 
+    color: #ffffff;
+  }
+  
+  .menu.open {
+      left: 0;
+    }
+    
+    .menu ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    .menu li {
+      padding: 10px;
+    }
+    
+    .menu a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    
+    #openMenuBtn img {
+      width: 250px; /* Defina o tamanho desejado */
+      height: 150px; /* Defina o tamanho desejado */
+      margin-right: 25px; /* Espaço entre o ícone e o texto "Abrir Menu" */
+    }

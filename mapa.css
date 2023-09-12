@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    touch-action: none;
+  }
+  
+  header {
+    background-color:#b33636;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(20px);
+  
+  }
+  
+  header img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  header ul {
+    margin-right: 10px;
+  }
+  
+  .mapa {
+    width: 98%;
+    max-width: 800px; /* Defina a largura máxima desejada */
+    margin: 0 auto; /* Centralize horizontalmente */
+  }
+  
+  /* O restante do seu código permanece inalterado */
+  .menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: flex;
+    height: 100%;
+    background-color: rgba(0,0,0, .6);
+    transition: left 0.1s ease-in-out;
+    z-index: 9999; 
+    color: #ffffff;
+  }
+  
+  .menu.open {
+      left: 0;
+    }
+    
+    .menu ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    .menu li {
+      padding: 10px;
+    }
+    
+    .menu a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    
+    #openMenuBtn img {
+      margin-top: 1%;
+      width: 250px; /* Defina o tamanho desejado */
+      height: 150px; /* Defina o tamanho desejado */
+      margin-right: 25px; /* Espaço entre o ícone e o texto "Abrir Menu" */
+    }
+  
+  h1{
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  h2{color: #ffffff;}
+  
+  footer {
+    background-color: #cf1e1e;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 1%;
+    backdrop-filter: blur(20px);
+  }
+  
+  footer div {
+    display: flex;
+    align-items: center;
+  }
+  
+  
