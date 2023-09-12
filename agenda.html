@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>AGENDA</title>
+    <link rel="stylesheet" href="agenda.css">
+    <link rel="shortcut icon" type="imagex/png" href="logo_polybalas.ico">
+</head>
+<body>
+    <div id="menu" class="menu">
+        <ul align="center">
+          <li><a href="c:\Users\arthurnobrega\Desktop\novo teste formulário polybalas\index\index.html"><img src="homer.png.png"width="35"><br>Inicio</a></li>
+          <li><a href="c:\Users\arthurnobrega\Desktop\novo teste formulário polybalas\index\roteiro.html"><img src="localização.png.png"width="35"><br>Roteiro</a></li>
+          <li><a href="c:\Users\arthurnobrega\Desktop\novo teste formulário polybalas\index\agenda.html"><img src="agenda.png.png"width="35"><br>Agenda Semanal</a></li>
+          <li><a href="c:\Users\arthurnobrega\Desktop\novo teste formulário polybalas\index\mapa.html"><img src="mapa.png.png"width="35"><br>Mapa</a></li>
+          <li><a href="https://wa.me/message/LL3NLMNAPYGOI1"><img src="whatsapp.png.png"width="35"><br>whatsApp</a></li>
+          <li><a href="mailto:arthur.nobrega@polybalas.com.br"><img src="e-mail.png.png"width="35"><br>E-mail</a></li>
+        </ul>
+      </div>
+    <header id="inicio">
+        <nav>
+            <ul>
+                <img src="menu.png.png"id="openMenuBtn">
+            </ul>
+        </nav>
+        <h1>AGENDA GESTORES - POLYBALAS</h1>
+        <img src=https://assets.agilecdn.com.br/images/logo_polybalas.png?v=690 alt="Logo da Empresa" width="110" height="300">
+    </header>
+
+    <div id="inicial" align="center">
+        <div id="formularios" class="colorido" align="center">     
+        <form action="https://api.sheetmonkey.io/form/vJrmpQcprn3BrmzmrHda6v" method="post" id="formAgenda">
+            
+            <div class="form-item">
+                <label for="funcionario">Funcionário:</label>
+                <input type="text" id="funcionario" name="funcionario" placeholder="Seu nome completo (LUCAS SILVA PEREIRA GARCIA)" pattern="[A-Z\s]+" minlength="10" maxlength="35" required oninput="this.value = this.value.toUpperCase()"/>
+            </div>
+
+            <div class="form-item">
+                <label for="placaVeiculo">Placa do Veículo:</label>
+                <input type="text" id="placaVeiculo" name="placaVeiculo" class="uppercase-input" placeholder="Placa do veículo (XXX-XXXX)" pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="7" maxlength="8" required oninput="this.value = this.value.toUpperCase()">
+            </div>
+
+            <div class="form-item">
+                <label for="mes">Mês:</label>
+                <input type="month" id="mes" name="mes" required>
+            </div>
+
+            <div class="form-item">
+                <label for="semanaMes">Semana do Mês:</label>
+                <input type="number" id="semanaMes" name="semanaMes" placeholder="Semana atual"minlength="1" maxlength="1" required min="1" max="6" required>
+            </div>
+
+            <div class="form-item">
+                <label for="segunda">Segunda-feira:</label>
+                <input type="date" id="segunda" name="segunda" required>
+                <input type="text" id="cidadeSegunda" name="cidadeSegunda" placeholder="Cidade" pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="3" maxlength="40" required oninput="this.value = this.value.toUpperCase()">
+                <input type="text" id="observacaoSegunda" name="observacaoSegunda" placeholder="Observação" pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="5" maxlength="50" required oninput="this.value = this.value.toUpperCase()">
+            </div>
+
+            <div class="form-item">
+                <label for="terca">Terça-feira:</label>
+                <input type="date" id="terca" name="terca" required>
+                <input type="text" id="cidadeTerca" name="cidadeTerca" placeholder="Cidade" pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="3" maxlength="40" required oninput="this.value = this.value.toUpperCase()">
+                <input type="text" id="observacaoTerca" name="observacaoTerca" placeholder="Observação" pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="5" maxlength="50" required oninput="this.value = this.value.toUpperCase()">
+            </div>
+
+            <div class="form-item">
+                <label for="quarta">Quarta-feira:</label>
+                <input type="date" id="quarta" name="quarta" required>
+                <input type="text" id="cidadeQuarta" name="cidadeQuarta" placeholder="Cidade" pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="3" maxlength="40" required oninput="this.value = this.value.toUpperCase()">
+                <input type="text" id="observacaoQuarta" name="observacaoQuarta" placeholder="Observação" pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="5" maxlength="50" required oninput="this.value = this.value.toUpperCase()">
+            </div>
+
+            <div class="form-item">
+                <label for="quinta">Quinta-feira:</label>
+                <input type="date" id="quinta" name="quinta" required>
+                <input type="text" id="cidadeQuinta" name="cidadeQuinta" placeholder="Cidade" pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="3" maxlength="40" required oninput="this.value = this.value.toUpperCase()">
+                <input type="text" id="observacaoQuinta" name="observacaoQuinta" placeholder="Observação" pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="5" maxlength="50" required oninput="this.value = this.value.toUpperCase()">
+            </div>
+
+            <div class="form-item">
+                <label for="sexta">Sexta-feira:</label>
+                <input type="date" id="sexta" name="sexta" required>
+                <input type="text" id="cidadeSexta" name="cidadeSexta" placeholder="Cidade" pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="3" maxlength="40" required oninput="this.value = this.value.toUpperCase()">
+                <input type="text" id="observacaoSexta" name="observacaoSexta" placeholder="Observação" pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="5" maxlength="50" required oninput="this.value = this.value.toUpperCase()">
+            </div>
+
+            <div class="form-item">
+                <label for="sabado">Sábado:</label>
+                <input type="date" id="sabado" name="sabado" required>
+                <input type="text" id="cidadeSabado" name="cidadeSabado" placeholder="Cidade" pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="3" maxlength="40" required oninput="this.value = this.value.toUpperCase()">
+                <input type="text" id="observacaoSabado" name="observacaoSabado" placeholder="Observação" pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="5" maxlength="50" required oninput="this.value = this.value.toUpperCase()">
+            </div>
+
+            <div class="form-buttons">
+                <button type="submit" class="red-button">Enviar</button>
+                <button type="reset" class="red-button">Limpar Campos</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>Polybalas - Rua João Miguel de Souza, 173 Galpão B - Ernesto Geisel, João Pessoa/PB - CEP 58.075-075 - CNPJ 00.909.327/0002-61</p>
+      </footer>
+      <script src="menu.js"></script>
+</div>
+</body>
